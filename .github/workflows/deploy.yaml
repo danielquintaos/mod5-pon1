@@ -18,22 +18,15 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Change to Website Directory
-      run: cd mod5-pon1/my-website
-
     - name: Install Dependencies
-      run: |
-        cd mod5-pon1/my-website
-        npm install
+      run: npm install
 
     - name: Build Website
-      run: |
-        cd mod5-pon1/my-website
-        npm run build
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
         branch: gh-pages # The branch the action should deploy to.
-        folder: mod5-pon1/my-website/build # Adjust this to the correct build directory
-        token: ${{ secrets.GITHUB_TOKEN }}
+        folder: build # The folder the action should deploy.
+        token: ${{ secrets.GITHUB_TOKEN }} # GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow.
