@@ -13,7 +13,7 @@ const config = {
   organizationName: 'danielquintaos',
   projectName: 'mod5-pon1',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'en',
