@@ -4,32 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'The fact remains that the apparent objective movement of capital—which is by no means a failure to recognize or an illusion of consciousness—shows that the productive essence of capitalism can itself function only in this necessarily monetary or commodity form that controls it, and whose flows and relations between flows contain the secret of the investment of desire. It is at the level of flows, the monetary flows included, and not at the level of ideology, that the integration of desire is achieved. So what is the solution? Which is the revolutionary path? Psychoanalysis is of little help, entertaining as it does the most intimate of relations with money, and recording—while refusing to recognize it—an entire system of economic-monetary dependences at the heart of the desire of every subject it treats. Psychoanalysis constitutes for its part a gigantic enterprise of absorption of surplus value. But which is the revolutionary path? Is there one?—To withdraw from the world market, as Samir Amin advises Third World countries to do, in a curious revival of the fascist "economic solution"? Or might it be to go in the opposite direction? To go still further, that is, in the movement of the market, of decoding and deterritorialization? For perhaps the flows are not yet deterritorialized enough, not decoded enough, from the viewpoint of a theory and a practice of a highly schizophrenic character. Not to withdraw from the process, but to go further, to "accelerate the process," as Nietzsche put it: in this matter, the truth is that we havent seen anything yet.',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        —Deleuze and Guattari, Anti-Oedipus
       </>
     ),
   },

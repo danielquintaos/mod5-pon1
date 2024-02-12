@@ -1,5 +1,41 @@
-[The fact remains that the apparent objective movement of capital—which is by no means a failure to recognize or an illusion of consciousness—shows that the productive essence of capitalism can itself function only in this necessarily monetary or commodity form that controls it, and whose flows and relations between flows contain the secret of the investment of desire. It is at the level of flows, the monetary flows included, and not at the level of ideology, that the integration of desire is achieved.](https://danielquintaos.github.io/mod5-pon1/)
+# Website
 
-[So what is the solution? Which is the revolutionary path? Psychoanalysis is of little help, entertaining as it does the most intimate of relations with money, and recording—while refusing to recognize it—an entire system of economic-monetary dependences at the heart of the desire of every subject it treats. Psychoanalysis constitutes for its part a gigantic enterprise of absorption of surplus value. But which is the revolutionary path? Is there one?—To withdraw from the world market, as Samir Amin advises Third World countries to do, in a curious revival of the fascist "economic solution"? Or might it be to go in the opposite direction? To go still further, that is, in the movement of the market, of decoding and deterritorialization? For perhaps the flows are not yet deterritorialized enough, not decoded enough, from the viewpoint of a theory and a practice of a highly schizophrenic character. Not to withdraw from the process, but to go further, to "accelerate the process," as Nietzsche put it: in this matter, the truth is that we haven't seen anything yet.](https://danielquintaos.github.io/mod5-pon1/)
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-—Deleuze and Guattari, Anti-Oedipus
+### Installation
+
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
